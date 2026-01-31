@@ -1,0 +1,72 @@
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media (max-width: 599px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#container > div {
+  background-color: green;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+}
+
+.grid {
+  background-color: green;
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  background-color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Order of priority:
+inline
+id
+class
+type
+
+Basic styles:
+
+color: the color of text
+text-align: where elements are placed on the page
+background-color: can be set to any color
+width: in pixels or percent of a page
+height: in pixels or percent of a page
+padding: how much space should be left inside an element
+margin: how much space should be left outside an element
+font-family: type of font for text on page
+font-size: in pixels
+border: size type (solid, dashed, etc) color
+*/
