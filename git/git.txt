@@ -1,0 +1,20 @@
+git clone <url>
+
+ls -> see files inside the folder
+cd -> change directory
+touch <name of a directoy> -> creates a file
+
+*git pull
+git add <filename>
+git commit -m 'comment'
+*git commit -am 'comment'
+*git status
+git push
+
+git log -> look back at your commits
+git reset --hard<commit you want to go back to> OR git reset --hard master -> revert back to a past commit
+
+git branch -> shows all the branches and which one u are in
+git checkout -b <name of a new branch>
+git checkout <name of an existing branch>
+git merge <branch name>
